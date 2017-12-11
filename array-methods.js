@@ -9,9 +9,7 @@ function planetListMaker(){
     console.log("here");
     var el = document.getElementById("planets");
     planets.forEach (function(planet){
-        
-        
-        el.innerHTML = `<li>${planets}</li>`;
+        el.innerHTML += `<div>${planet}</div>`;
     });
 };
 
